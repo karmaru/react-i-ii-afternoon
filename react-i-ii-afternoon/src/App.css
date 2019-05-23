@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  /* background: black; */
+}
+
+/* Styling for the App Component */
+
+.app {
+  height:100vh;
+  margin-Top:0;
+  background: blue;
+  display: flex;
+}
+
+/* Styling for the Nav Component */
+
+.nav {
+  background: lightskyblue;
+  height:100px;
+  width: 50vw;
+  display:flex;
+  margin-left: 25%;
+  align-items: center;
+  /* justify-content: ; */
+}
+
+.bottom-nav {
+  background: rgb(32, 34, 34);
+  height:50px;
+  width: 50vw;
+  display:flex;
+  margin-left: 25%;
+  /* margin-left: 25%; */
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bottom-nav > button{
+  /* background: lightskyblue; */
+  /* height:40px; */
+  /* width: 50px; */
+  color: white;
+  background: rgb(32, 34, 34);
+  border: none;
+  font-weight: 800;
+  font-family: cursive;
+  /* border-radius: 10px;  */
+  /* display:flex; */
+  /* margin-left: 25%; */
+  /* margin-left: 25%; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-box {
+  background: rgb(32, 34, 34);
+  height:600px;
+  width: 50vw;
+  display:flex;
+  /* flex-direction: column; */
+  margin-left: 25%;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: ; */
+}
+
+.main-box > button {
+  background: white;
+  height:50px;
+  width: 50px;
+  display: inline;
+  /* flex-direction: ; */
+  /* margin-left: 25%; */
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: ; */
+}
+
+.innerBox {
+  background: white;
+  height:50%;
+  width: 40vw;
+  margin:10%;
+  /* display:flex; */
+  /* margin-left: 30%; */
+  align-items: center;
+  justify-content: center;
+  /* justify-content: ; */
+}
+
+.movies {
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+
+.logo {
+  color:black;
+  margin-left:20px;
+  font-size:40px;
+  /* letter-spacing:0.05em; */
+  /* font-family:cursive; */
+}
+
+/* Styling for the MovieList Component */
+.movie-list {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background:gray;
+  min-height:calc(100vh - 100px);
+}
+
+form {
+  width:450px;
+  background:black;
+  height:50px;
+  display:flex;
+  justify-content:center;
+  margin-top:10px;
+  align-items:center;
+  border-radius:16px;
+}
+
+input {
+  text-align:center;
+  color:white;
+  font-size:30px;
+  width:400px;
+  height:40px;
+  background:transparent;
+  border:none;
+  outline:none;
+}
+
+/* Styling for the MovieDetails Component */
+.cards-display {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.card {
+  background:white;
+  margin:10px;
+  border:solid black 1px;
+  width:200px;
+  height:320px;
+  display:flex;
+  flex-direction:column;
+  box-shadow:3px 5px 4px 1px;
+  align-items:center;
+  text-align:center;
+  position:relative
+}
+
+.card > h1 , h3 {
+  margin:0
+}
+
+img {
+  height:200px;
+  width:100px;
+  position:absolute;
+  bottom:10px;
+  border:2px solid black;
+}
